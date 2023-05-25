@@ -19,7 +19,9 @@ public class MyntraHomePage {
 	}
 	
 	public void clickOnMenBtn() {
+		
 		Men.click();
+		
 	}
 
 }

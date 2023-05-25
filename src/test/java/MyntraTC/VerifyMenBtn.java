@@ -11,6 +11,7 @@ public class VerifyMenBtn extends TestBaseClass {
 		
 		MyntraHomePage h= new MyntraHomePage(driver);
 		h.clickOnMenBtn();
+		log.info("Man button clicked");
 	}
 
 }
