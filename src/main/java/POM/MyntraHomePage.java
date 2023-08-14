@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class MyntraHomePage {
 	WebDriver driver;
 	
-	@FindBy(xpath = "//a[@class='desktop-main'][normalize-space()='Men']")private WebElement Men;
+	@FindBy(xpath = "//a[@class='desktop-main'][normalize-space()='Men']---")private WebElement Men;
 	
 	
 	public MyntraHomePage(WebDriver driver) {

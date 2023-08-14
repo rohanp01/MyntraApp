@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBaseClass {
-	public WebDriver driver;
+	public static WebDriver driver;
 	public static Logger log= org.apache.logging.log4j.LogManager.getLogger(TestBaseClass.class);
 	
 	@BeforeMethod
